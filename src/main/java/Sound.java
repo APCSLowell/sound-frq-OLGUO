@@ -25,9 +25,9 @@ public class Sound
         samples[i] = -limit;
         sum++;
       }
+    }
     return sum;
   }
-
 
 
   /** Removes all silence from the beginning of this sound.
